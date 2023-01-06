@@ -15,9 +15,9 @@ dis_height = 600
 display = pygame.display.set_mode((dis_width, dis_height))
 pygame.display.set_caption("Snake")
 
-head_img = pygame.image.load("snake_head.png").convert()
-body_img = pygame.image.load("snake_body.png").convert()
-apple_img = pygame.image.load("apple.png").convert()
+head_img = pygame.image.load("images/snake_head.png").convert()
+body_img = pygame.image.load("images/snake_body.png").convert()
+apple_img = pygame.image.load("images/apple.png").convert()
 
 clock = pygame.time.Clock()
 snake_speed = 15
